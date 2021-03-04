@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     blcca_view_1, blcca_view_2 = rd.data_prepare(col = col + addcol)
 
-    # test()     #confusion matrix
+    # test() #confusion matrix
     testknn()
 
     path = mkdir(lib=False)
